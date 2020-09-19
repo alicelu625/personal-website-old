@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c39d7411.chunk.css",
+    "main.js": "/static/js/main.50be55a2.chunk.js",
+    "main.js.map": "/static/js/main.50be55a2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ce89729d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ce89729d.js.map",
+    "static/js/2.8f6184fd.chunk.js": "/static/js/2.8f6184fd.chunk.js",
+    "static/js/2.8f6184fd.chunk.js.map": "/static/js/2.8f6184fd.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.86cfea206e98cc117c3d80fa2dd88346.js": "/precache-manifest.86cfea206e98cc117c3d80fa2dd88346.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.c39d7411.chunk.css.map": "/static/css/main.c39d7411.chunk.css.map",
+    "static/js/2.8f6184fd.chunk.js.LICENSE.txt": "/static/js/2.8f6184fd.chunk.js.LICENSE.txt",
+    "static/media/AliceLuResume.pdf": "/static/media/AliceLuResume.361ac4b8.pdf",
+    "static/media/baskin-logo.jpg": "/static/media/baskin-logo.c2b45ce8.jpg",
+    "static/media/burger-builder-logo.png": "/static/media/burger-builder-logo.bae02e15.png",
+    "static/media/csa-logo.jpg": "/static/media/csa-logo.9d83dad4.jpg",
+    "static/media/digital-green-logo.jpg": "/static/media/digital-green-logo.f2cd96fe.jpg",
+    "static/media/gateway-learning-group-logo.jpg": "/static/media/gateway-learning-group-logo.600647e9.jpg",
+    "static/media/profile-picture.jpeg": "/static/media/profile-picture.da2bbabd.jpeg",
+    "static/media/ucsc-logo.png": "/static/media/ucsc-logo.71d588c6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ce89729d.js",
+    "static/js/2.8f6184fd.chunk.js",
+    "static/css/main.c39d7411.chunk.css",
+    "static/js/main.50be55a2.chunk.js"
+  ]
+}
