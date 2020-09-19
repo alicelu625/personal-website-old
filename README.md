@@ -3,6 +3,12 @@
 
 This web application was built for the purpose of showcasing my web development skills as well as my projects and experiences, which gets regularly updated. As I learn more about web development, I will also implement new features and designs to improve the user interface and user experience.
 
+What I used: 
+* React 16
+* HTML5
+* CSS3 w/ mobile first approach
+* Webpack
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
