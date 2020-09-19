@@ -14,7 +14,7 @@ const projects = () => (
                     alt="Alice's website logo"
                 />
                 <div>
-                    <p className={classes.Title}>My Personal Website</p>
+                <a className={classes.Title} href="https://alicezlu.com/">My Personal Website</a>
                     <p style={{marginBottom: 0}}>September 2020 - Present</p>
                 </div>
             </div>
