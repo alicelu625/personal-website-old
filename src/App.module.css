@@ -1,0 +1,47 @@
+/*mobile first*/
+.App {
+  text-align: center;
+}
+
+.Intro {
+  text-align: center;
+  font-family: 'Gayathri', sans-serif;
+  background-color: rgb(241, 240, 255);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid white;
+  color: rgb(66, 66, 66);
+}
+
+.Greeting {
+  font-size: 25px;
+}
+
+.Role {
+  font-size: 18px;
+}
+
+.Note {
+  font-size: 17px;
+  color: rgb(255, 145, 0);
+}
+
+/*medium devices (tablets)*/
+@media (min-width: 768px) {
+  .Intro {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .Greeting {
+    font-size: 35px;
+  }
+  
+  .Role {
+    font-size: 30px;
+  }
+  
+  .Note {
+    font-size: 25px;
+  }
+}

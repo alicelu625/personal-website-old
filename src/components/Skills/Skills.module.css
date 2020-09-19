@@ -1,0 +1,13 @@
+/*mobile first*/
+.Skills {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+/*medium screens (Ex. tablets)*/
+@media (min-width: 768px) {
+    .Skills {
+        font-size: 17px;
+    }
+}

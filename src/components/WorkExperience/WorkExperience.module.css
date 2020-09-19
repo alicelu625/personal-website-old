@@ -1,0 +1,96 @@
+/*mobile first*/
+.WorkExperience {
+    display: block;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Logo {
+    width: 200px;
+}
+
+.Info {
+    width: 100%;
+}
+
+.Employer {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.Position {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Location {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Description {
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.Details {
+    width: 100%;
+}
+
+/*medium screens (Ex. tablets)*/
+@media (min-width: 768px) {
+    .WorkExperience {
+        margin-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .Logo {
+        width: 250px;
+    }
+    
+    .Employer {
+        font-size: 25px;
+    }
+    
+    .Position {
+        font-size: 20px;
+    }
+    
+    .Location {
+        font-size: 17px;
+    }
+    
+    .Description {
+        font-size: 17px;
+    }
+}
+
+/*extra large devices (Ex. large desktops)*/
+@media (min-width: 1200px) {
+    .WorkExperience {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 10px;
+        height: auto;
+    }
+    
+    .Logo {
+        width: 300px;
+        padding-right: 20px;
+        padding-top: 9px;
+    }
+
+    .Info {
+        width: 35%;
+    }
+}

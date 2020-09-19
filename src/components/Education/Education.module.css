@@ -1,0 +1,78 @@
+/*mobile first*/
+.Education {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Logo {
+    width: 100px;
+    padding-right: 5px;
+}
+
+.Info {
+    margin-top: 0;
+}
+
+.School {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.Degree {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.OtherInfo {
+    font-size: 15px;
+    margin-top: 0; 
+}
+
+/*medium screens (Ex. tablets)*/
+@media (min-width: 768px) {
+    .Education {
+        padding-top: 20px;
+    }
+    
+    .Logo {
+        width: 250px;
+        padding-right: 10px;
+    }
+    
+    .School {
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 25px;
+    }
+    
+    .Degree {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .OtherInfo {
+        font-size: 17px;
+        margin-top: 0; 
+    }
+}
+
+/*extra large devices (Ex. large desktops)*/
+@media (min-width: 1200px) {
+    .Education {
+        padding-top: 20px;
+    }
+    
+    .Logo {
+        width: 260px;
+        padding-right: 15px;
+    }
+}

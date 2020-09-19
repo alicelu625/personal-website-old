@@ -1,0 +1,24 @@
+.NavigationTabs {
+    display: block;
+    height: auto;
+}
+
+/*medium screens (Ex. tablets)*/
+@media (min-width: 768px) {
+    .NavigationTabs {
+        max-width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+}
+
+/*large devices (Ex. large tablets, small laptops)*/
+@media ( min-width: 991px) {
+    .NavigationTabs {
+        max-width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+    }
+}
