@@ -34,6 +34,6 @@
 /*extra large devices (Ex. large desktops)*/
 @media (min-width: 1440px) {
   .NavigationTab {
-    font-size: 30px;
+    font-size: 25px;
   }
 }

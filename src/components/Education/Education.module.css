@@ -4,7 +4,7 @@
 }
 
 .EducationItem {
-  padding-top: 30px;
+  margin-bottom: 30px;
   width: 95%;
 }
 
@@ -44,30 +44,26 @@
 
 /*medium screens (Ex. tablets)*/
 @media (min-width: 768px) {
-  .Education {
-    font-size: 17px;
-  }
-    
   .Logo {
-    width: 200px;
+    width: 180px;
     padding-right: 10px;
   }
     
   .School {
     font-weight: bold;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 21px;
   }
     
   .Degree {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 0;
   }
   
   .OtherInfo {
-    font-size: 17px;
+    font-size: 15px;
     margin-top: 0; 
   }
 }
@@ -90,12 +86,10 @@
     align-items: center;
     margin-left: 0;
     margin-right: 0;
-    font-size: 17px;
-    padding-top: 20px;
   }
 
   .EducationItem {
-    width: 30vw;
+    width: 28vw;
   }
   
   .Logo {

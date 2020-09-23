@@ -1,7 +1,7 @@
 /*mobile first*/
 .WorkExperience {
   display: block;
-  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .Logo {
@@ -46,28 +46,24 @@
 
 /*medium screens (Ex. tablets)*/
 @media (min-width: 768px) {
-  .WorkExperience {
-    margin-top: 20px;
-  }
-    
   .Logo {
     width: 250px;
   }
     
   .Employer {
-    font-size: 25px;
+    font-size: 21px;
   }
     
   .Position {
-    font-size: 20px;
+    font-size: 18px;
   }
     
   .Location {
-    font-size: 17px;
+    font-size: 15px;
   }
     
   .Description {
-    font-size: 17px;
+    font-size: 15px;
   }
 }
 
@@ -86,13 +82,11 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding-top: 10px;
     height: auto;
-    width: 100vw;
+    width: 95vw;
   }
   
   .Logo {
-    width: 300px;
     padding-right: 20px;
     padding-top: 9px;
   }

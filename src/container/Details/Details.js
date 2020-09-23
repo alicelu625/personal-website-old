@@ -26,7 +26,7 @@ const details = (props) => {
 			tab = <Skills/>
 			title = 'My skills inventory:'
 			break;
-		case ('experience'):
+		case ('experiences'):
 			tab = <WorkExperience/>
 			title = 'Take a stroll down my professional journey:'
 			break;

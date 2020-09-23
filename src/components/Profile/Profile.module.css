@@ -29,7 +29,7 @@
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   margin-top: 5px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   height: 15px;
 }
 
@@ -65,7 +65,7 @@
 /*medium screens (Ex. tablets)*/
 @media (min-width: 768px) {
   .Intro {
-    font-size: 17px;
+    font-size: 16px;
   }
   
   .Profile {
@@ -78,17 +78,19 @@
   }
 
   .Pic {
-    padding-right: 10px;
-    padding-bottom: 5px;;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 0;
   }
 
   .Pic .Picture {
-    height: 230px;
+    height: 240px;
   }
 
   .Pic .Email {
     margin-top: 20px;
     padding-bottom: 20px;
+    margin-bottom: 0;
   }
 
   .Info {
@@ -101,71 +103,51 @@
   }
   
   .Icons {
-    font-size: 17px;
+    font-size: 15px;
   }
 }
 
 /*large devices (Ex. large tablets, small laptops)*/
 @media ( min-width: 991px) {
-    .Intro {
-        font-size: 17px;
-    }
+  .Intro {
+    font-size: 17px;
+  }
 
-    .Profile {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: auto;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
+  .Profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 
-    .Pic {
-        padding-right: 40px;
-        padding-bottom: 5px;;
-        padding-top: 25px;
-    }
+  .Pic {
+    padding-right: 40px;
+    padding-top: 10px;
+  }
 
-    .Pic .Picture {
-        height: 230px;
-    }
-
-    .Pic .Email {
-        margin-top: 20px;
-        padding-bottom: 20px;
-    }
-
-    .Info {
-        padding-left: 0px;
-        width: 490px;
-    }
+  .Info {
+    width: 490px;
+  }
 }
 
 /*extra large devices (Ex. large desktops)*/
 @media (min-width: 1440px) {
-    .Profile {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
+  .Pic {
+    padding-right: 50px;
+  }
 
-    .Pic {
-        padding-right: 50px;
-        padding-bottom: 5px;;
-        padding-top: 30px;
-    }
+  .Pic .Email {
+    padding-bottom: 20px;
+  }
 
-    .Pic .Email {
-        margin-top: 20px;
-        padding-bottom: 20px;
-    }
-
-    .Info {
-        padding-left: 0px;
-        width: 520px;
-    }
-    
-    .References {
-        margin-left: 200px;
-        margin-right: 200px;
-    }
+  .Info {
+    width: 520px;
+  }
+  
+  .References {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
 }

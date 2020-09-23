@@ -23,10 +23,12 @@ const projects = () => (
       <div>
         <p style={{marginTop: 5}}><strong>Description:</strong> This website was built for the purpose of showcasing my web development skills as well as my projects and experiences, which gets regularly updated. For mobile/tablet support, a toggle side navigation was implemented in place of a top navigation. As I learn more about web development, I will also implement new features and designs to improve the user interface and user experience.</p>
         <p><strong>What I used:</strong> React 16, HTML5, CSS3 w/ Mobile First, Webpack</p>
-        <p style={{marginBottom: 0}}><strong>Future work:</strong></p>
+        <p style={{marginBottom: 0}}><strong>Future work (Next updates!):</strong></p>
         <ul style={{marginTop: 0}}>
           <li>Add animation</li>
+          <li>Implement project details page for each project</li>
           <li>Add a feedback form</li>
+          <li>Implement a home page</li>
           <li>Learn more about design and improve overall user interface</li>
         </ul>
     </div>

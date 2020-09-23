@@ -3,7 +3,7 @@ import classes from './Skills.module.css';
 
 const skills = () => (
   <div className={classes.Skills}>
-    <p><strong>Programming Language:</strong>
+    <p style={{marginTop: 0}}><strong>Programming Language:</strong>
       <br/>Python, JavaScript, CSS, HTML, SQL, Java, C, C++
     </p>
     <p><strong>Technologies:</strong>

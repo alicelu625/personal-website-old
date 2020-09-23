@@ -10,7 +10,7 @@ const tabs = [
   {label: 'EDUCATION'},
   {label: 'ABOUT ME'},
   {label: 'SKILLS'},
-  {label: 'EXPERIENCE'}
+  {label: 'EXPERIENCES'}
 ]
 
 const sideDrawer = (props) => {

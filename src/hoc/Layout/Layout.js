@@ -32,7 +32,7 @@ class Layout extends Component {
       'projects': false,
       'education': false,
       'skills': false,
-      'experience': false
+      'experiences': false
     }
 
     //for styling purposes, pass property of viewing tab

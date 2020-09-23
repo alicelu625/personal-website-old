@@ -4,16 +4,17 @@
   font-family: 'Open Sans', sans-serif;
   padding-right: 15px;
   padding-left: 15px;
-  padding-top: 175px;
-  padding-bottom: 100px;
+  padding-top: 135px;
+  padding-bottom: 30px;
 }
 
 .Title {
   padding-top: 10px;
   margin-top: 0;
-  font-size: 18px;
+  font-size: 17px;
   text-align: center;
   margin-bottom: 0px;
+  padding-bottom: 20px;
   color: rgb(62, 41, 90);
   width: 95%;
 }
@@ -31,7 +32,7 @@
   .Details {
     padding-right: 20px;
     padding-left: 20px;
-    padding-top: 235px;
+    padding-top: 170px;
   }
 
   .Title {
@@ -43,11 +44,11 @@
 @media (min-width: 991px) {
   .Details {
     font-size: 20px;
-    padding-top: 255px;
+    padding-top: 175px;
   }
 
   .Title {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 0px;
   }
 
