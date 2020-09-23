@@ -1,30 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.c39d7411.chunk.css",
-    "main.js": "/static/js/main.b17825af.chunk.js",
-    "main.js.map": "/static/js/main.b17825af.chunk.js.map",
+    "main.css": "/static/css/main.6cc1d153.chunk.css",
+    "main.js": "/static/js/main.bf2c05a6.chunk.js",
+    "main.js.map": "/static/js/main.bf2c05a6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ce89729d.js",
     "runtime-main.js.map": "/static/js/runtime-main.ce89729d.js.map",
-    "static/js/2.8f6184fd.chunk.js": "/static/js/2.8f6184fd.chunk.js",
-    "static/js/2.8f6184fd.chunk.js.map": "/static/js/2.8f6184fd.chunk.js.map",
+    "static/js/2.2e470b99.chunk.js": "/static/js/2.2e470b99.chunk.js",
+    "static/js/2.2e470b99.chunk.js.map": "/static/js/2.2e470b99.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e24f908780840ce7b457b33e9bbda9f5.js": "/precache-manifest.e24f908780840ce7b457b33e9bbda9f5.js",
+    "precache-manifest.2a229fa5c4ddf07cd31199af261f488c.js": "/precache-manifest.2a229fa5c4ddf07cd31199af261f488c.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.c39d7411.chunk.css.map": "/static/css/main.c39d7411.chunk.css.map",
-    "static/js/2.8f6184fd.chunk.js.LICENSE.txt": "/static/js/2.8f6184fd.chunk.js.LICENSE.txt",
-    "static/media/AliceLuResume.pdf": "/static/media/AliceLuResume.361ac4b8.pdf",
+    "static/css/main.6cc1d153.chunk.css.map": "/static/css/main.6cc1d153.chunk.css.map",
+    "static/js/2.2e470b99.chunk.js.LICENSE.txt": "/static/js/2.2e470b99.chunk.js.LICENSE.txt",
+    "static/media/AliceLuResume.pdf": "/static/media/AliceLuResume.22efc2e4.pdf",
     "static/media/baskin-logo.jpg": "/static/media/baskin-logo.c2b45ce8.jpg",
     "static/media/burger-builder-logo.png": "/static/media/burger-builder-logo.bae02e15.png",
     "static/media/csa-logo.jpg": "/static/media/csa-logo.9d83dad4.jpg",
     "static/media/digital-green-logo.jpg": "/static/media/digital-green-logo.f2cd96fe.jpg",
+    "static/media/free-code-camp-logo.png": "/static/media/free-code-camp-logo.ebbf7720.png",
     "static/media/gateway-learning-group-logo.jpg": "/static/media/gateway-learning-group-logo.600647e9.jpg",
     "static/media/profile-picture.jpeg": "/static/media/profile-picture.da2bbabd.jpeg",
-    "static/media/ucsc-logo.png": "/static/media/ucsc-logo.71d588c6.png"
+    "static/media/ucsc-logo.png": "/static/media/ucsc-logo.71d588c6.png",
+    "static/media/udemy-logo.png": "/static/media/udemy-logo.c617771e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ce89729d.js",
-    "static/js/2.8f6184fd.chunk.js",
-    "static/css/main.c39d7411.chunk.css",
-    "static/js/main.b17825af.chunk.js"
+    "static/js/2.2e470b99.chunk.js",
+    "static/css/main.6cc1d153.chunk.css",
+    "static/js/main.bf2c05a6.chunk.js"
   ]
 }

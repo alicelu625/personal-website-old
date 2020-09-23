@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9749350ec72635caee727f5487de4174",
+    "revision": "4b4ea11cf455129224de8bc32b5afafb",
     "url": "/index.html"
   },
   {
-    "revision": "68aa609254aec30ffd55",
-    "url": "/static/css/main.c39d7411.chunk.css"
+    "revision": "24ab90e2b33d125d3fc0",
+    "url": "/static/css/main.6cc1d153.chunk.css"
   },
   {
-    "revision": "d7df67cc94b60d6d1c98",
-    "url": "/static/js/2.8f6184fd.chunk.js"
+    "revision": "a13bb226f33ec90f8913",
+    "url": "/static/js/2.2e470b99.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/static/js/2.8f6184fd.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.2e470b99.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "68aa609254aec30ffd55",
-    "url": "/static/js/main.b17825af.chunk.js"
+    "revision": "24ab90e2b33d125d3fc0",
+    "url": "/static/js/main.bf2c05a6.chunk.js"
   },
   {
     "revision": "f139b624154a37532bb8",
     "url": "/static/js/runtime-main.ce89729d.js"
   },
   {
-    "revision": "361ac4b8e23f63ae0e625499542ff101",
-    "url": "/static/media/AliceLuResume.361ac4b8.pdf"
+    "revision": "22efc2e4b0fc8a21c2aed5d3dde96d10",
+    "url": "/static/media/AliceLuResume.22efc2e4.pdf"
   },
   {
     "revision": "c2b45ce82fb9c39e5ed6b805dfd38560",
@@ -44,6 +44,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/digital-green-logo.f2cd96fe.jpg"
   },
   {
+    "revision": "ebbf772002eb98dea2c9cb8e89f3bf6e",
+    "url": "/static/media/free-code-camp-logo.ebbf7720.png"
+  },
+  {
     "revision": "600647e92a44583213e3b04e21a1b94f",
     "url": "/static/media/gateway-learning-group-logo.600647e9.jpg"
   },
@@ -54,5 +58,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "71d588c658ae173ae1972ae0300b62bb",
     "url": "/static/media/ucsc-logo.71d588c6.png"
+  },
+  {
+    "revision": "c617771e31c54bfe4a02019d909ac924",
+    "url": "/static/media/udemy-logo.c617771e.png"
   }
 ]);
