@@ -15,6 +15,7 @@ class Layout extends Component {
     console.log(tab);
     this.setState({selected: tab});
     this.setState({showSideDrawer: false});
+    window.scrollTo(0,0);
   }
   
   openSideDrawerHandler = () => {
