@@ -1,53 +1,62 @@
 /*mobile first*/
 .Details {
-    font-size: 15px;
-    background-color: white;
-    height: auto;
-    font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 175px;
 }
 
 .Title {
-    margin-top: 10px;
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 0px;
-    color: orange;
+  padding-top: 10px;
+  margin-top: 0;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 0px;
+  color: rgb(62, 41, 90);
+  width: 95%;
 }
 
 .Detail {
-    padding-left: 0px;
+  padding-left: 0px;
 }
 
 .Navigation {
-    display: block;
+  display: block;
 }
 
-/*tablets*/
+/*medium screens (Ex. tablets)*/
 @media (min-width: 768px) {
-    .Title {
-        font-size: 30px;
-    }
+  .Details {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 235px;
+  }
+
+  .Title {
+    font-size: 25px;
+  }
 }
 
-/*desktop*/
-@media (min-width: 992px) {
-    .Details {
-        font-size: 20px;
-    }
+/*large devices (Ex. large tablets, small laptops)*/
+@media (min-width: 991px) {
+  .Details {
+    font-size: 20px;
+    padding-top: 255px;
+  }
 
-    .Title {
-        margin-top: 10px;
-        font-size: 40px;
-        margin-bottom: 0px;
-    }
+  .Title {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
 
-    .Detail {
-        padding-left: 20px;
-    }
+  .Detail {
+    padding-left: 20px;
+  }
 
-    .Navigation {
-        display: flex;
-        justify-content: space-evenly;
-        padding-top: 10px;
-    }
+  .Navigation {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+  }
 }

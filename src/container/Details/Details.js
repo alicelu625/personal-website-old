@@ -1,75 +1,45 @@
-import React, {Component} from 'react';
+import React from 'react';
 import classes from './Details.module.css';
-import NavigationTabs from '../../components/NavigationTabs/NavigationTabs';
+import Profile from '../../components/Profile/Profile';
 import Projects from '../../components/Projects/Projects';
 import Education from '../../components/Education/Education';
 import Skills from '../../components/Skills/Skills';
 import WorkExperience from '../../components/WorkExperience/WorkExperience';
 
-class Details extends Component {
-    state = {
-        selected: 'projects'
-    }
+const details = (props) => {
+	let tab = null;
+	let title = null;
+	//check which tab is selected
+	switch(props.tab) {
+		case ('about me'):
+			tab = <Profile/>;
+			break;
+		case ('projects'):
+			tab = <Projects/>;
+			title = 'Putting my skills to practice:'
+			break;
+		case ('education'):
+			tab = <Education/>
+			title = 'My journey in acquiring skills & knowledge:'
+			break;
+		case ('skills'):
+			tab = <Skills/>
+			title = 'My skills inventory:'
+			break;
+		case ('experience'):
+			tab = <WorkExperience/>
+			title = 'Take a stroll down my professional journey:'
+			break;
+		default: 
+			tab = null;
+	}
 
-    selectTabHandler = (tab) => {
-        this.setState({selected: tab});
-    }
-    render () {
-        let tab = null;
-        //check which tab is selected
-        switch(this.state.selected) {
-            case ('projects'):
-                tab = <Projects/>;
-                break;
-            case ('education'):
-                tab = <Education/>
-                break;
-            case ('skills'):
-                tab = <Skills/>
-                break;
-            case ('work experience'):
-                tab = <WorkExperience/>
-                break;
-            default: 
-                tab = null;
-        }
-
-        const tabList = {
-            'projects': false,
-            'education': false,
-            'skills': false,
-            'work experience': false
-        }
-
-        //for styling purposes, pass property of viewing tab
-        for (let key in tabList) {
-            if (key !== this.state.selected) {
-                tabList[key] = false;
-            }
-            else {
-                tabList[key] = true;
-            }
-        }
-
-        return (
-            <div className={classes.Details}>
-                <NavigationTabs
-                    tabClicked={this.selectTabHandler}
-                    viewing={tabList}
-                />
-                <p className={classes.Title}>{this.state.selected.toUpperCase()}</p>
-                {tab}
-            </div>
-        );
-    }
+	return (
+		<div className={classes.Details}>
+			<p className={classes.Title}>{title}</p>
+			{tab}
+		</div>
+	);
 }
 
-export default Details;
-
-/*
-<div className={classes.Details}>
-            <p>Take a look at my resume: <br/></p>
-            <p>Take a look at my projects: <br/><a href="https://github.com/alicelu625">https://github.com/alicelu625</a></p>
-            <p>Connect with me: <br/><a href="https://www.linkedin.com/in/zifei-alice-lu/">https://www.linkedin.com/in/zifei-alice-lu/</a></p>
-        </div>
-*/
+export default details;

@@ -1,0 +1,75 @@
+/*mobile first*/
+.SideDrawer {
+  position: fixed;
+  width: auto;
+  max-width: 70%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 200; /*above backdrop*/
+  background-color: white;
+  padding: 32px 16px; /*32px top/bottom, 16px left/right*/
+  box-sizing: border-box;
+  transition: transform 0.3s ease-out; /*react to changes of transform propertt & animate 300ms with ease out timing*/
+}
+
+.Logo {
+  height: 60px;
+  border: 1px solid black;
+  border-radius: 20%;
+}
+
+.BackButton {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(252, 249, 255);
+  color: rgb(62, 41, 90);
+  border: 1px solid rgb(62, 41, 90);
+  border-radius: 10%;
+  float: right;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.List {
+  padding-left: 0;
+}
+
+.Open {
+  transform: translateX(0); /*shift sidedrawer to position*/
+}
+
+.Close {
+  transform: translateX(-100%); /*slide to left off screen*/
+}
+
+/*medium screens (Ex. tablets)*/
+@media (min-width: 768px) {
+  .SideDrawer {
+    height: 100%;
+  }
+  
+  .Logo {
+    height: 80px;
+  }
+
+  .BackButton {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .Open {
+    transform: translateX(0); /*shift sidedrawer to position*/
+  }
+  
+  .Close {
+    transform: translateX(-200%); /*slide to left off screen*/
+  }
+}
+
+/*large devices (Ex. large tablets, small laptops)*/
+@media (min-width: 991px) {
+  .SideDrawer {
+    display: none;
+  }
+}

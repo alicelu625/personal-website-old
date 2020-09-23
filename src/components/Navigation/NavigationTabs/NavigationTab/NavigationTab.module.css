@@ -1,0 +1,39 @@
+/*mobile first*/
+.NavigationTab {
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  color: orange;
+  background-color:rgb(241, 240, 255);
+  border: 1px solid white;
+  border-top: 3px solid white;
+  outline: none;
+  width: 100%;
+}
+
+.NavigationTab:hover {
+  background-color: rgb(252, 249, 255);
+  cursor: pointer;
+}
+
+/*medium devices (Ex. small tablets)*/
+@media (min-width: 768px) {
+  .NavigationTab {
+    width: 50vw;
+    font-size: 30px;
+  }
+}
+
+/*large devices (Ex. large tablets, small laptops)*/
+@media ( min-width: 991px) {
+  .NavigationTab {
+    width: 20vw;
+    font-size: 25px;
+  }
+}
+
+/*extra large devices (Ex. large desktops)*/
+@media (min-width: 1440px) {
+  .NavigationTab {
+    font-size: 30px;
+  }
+}
