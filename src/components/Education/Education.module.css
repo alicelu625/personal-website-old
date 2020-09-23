@@ -84,7 +84,7 @@
 /*extra large devices (Ex. large desktops)*/
 @media (min-width: 1200px) {
   .Education {
-    width: 100vw;
+    width: 95vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
