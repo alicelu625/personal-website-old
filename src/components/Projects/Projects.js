@@ -25,11 +25,12 @@ const projects = () => (
         <p><strong>What I used:</strong> React 16, JavaScript (ES6), HTML5, CSS3 w/ Mobile First, Webpack</p>
         <p style={{marginBottom: 0}}><strong>Future work (Next updates!):</strong></p>
         <ul style={{marginTop: 0}}>
-          <li>Add animation</li>
+          <li>Add routing and implement a home page</li>
+          <li>Add collapsible feature and "see more" to lengthy descriptions</li>
           <li>Implement project details page for each project</li>
-          <li>Add a feedback form</li>
-          <li>Implement a home page</li>
+          <li>Add animation</li>
           <li>Learn more about design and improve overall user interface</li>
+          <li>Add a feedback form</li>
         </ul>
     </div>
   </div>
@@ -59,7 +60,7 @@ const projects = () => (
         <p style={{marginBottom: 0}}><strong>Future work:</strong></p>
         <ul style={{marginTop: 0}}>
           <li>Implement checkout page</li>
-          <li>Add server requests support (HTTP/Ajax)</li>
+          <li>Add Firebase server requests support (HTTP/Ajax)</li>
           <li>Add routing</li>
           <li>Add Redux</li>
           <li>Add authentification</li>
