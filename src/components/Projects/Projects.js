@@ -25,7 +25,7 @@ const projects = () => (
         <p><strong>What I used:</strong> React 16, JavaScript (ES6), HTML5, CSS3 w/ Mobile First, Webpack</p>
         <p style={{marginBottom: 0}}><strong>Future work (Next updates!):</strong></p>
         <ul style={{marginTop: 0}}>
-          <li>Add routing and implement a home page</li>
+          <li>Add routing and implement a nice home page</li>
           <li>Add collapsible feature and "see more" to lengthy descriptions</li>
           <li>Implement project details page for each project</li>
           <li>Add animation</li>
@@ -56,13 +56,10 @@ const projects = () => (
     </div>
       <div>
         <p style={{marginTop: 5}}><strong>Description:</strong> A single page web application that allows users to build a burger by adding/removing ingredients. An order summary is displayed upon checkout. For mobile support, a toggle side navigation was implemented in place of a desktop supported toolbar.</p>
-        <p><strong>What I used:</strong> React 16, JavaScript (ES6), HTML5, CSS3 w/ Mobile First, Webpack</p>
+        <p><strong>What I used:</strong> React 16, JavaScript (ES6), HTML5, CSS3 w/ Mobile First, Webpack, Routing, Firebase (HTTP/Ajax)</p>
         <p style={{marginBottom: 0}}><strong>Future work:</strong></p>
         <ul style={{marginTop: 0}}>
-          <li>Implement checkout page</li>
-          <li>Add Firebase server requests support (HTTP/Ajax)</li>
-          <li>Add routing</li>
-          <li>Add Redux</li>
+          <li>Use Redux</li>
           <li>Add authentification</li>
         </ul>
       </div>
