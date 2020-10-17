@@ -33,7 +33,7 @@ const profile = () => {
           </p>
           <p style={{marginBottom: 0}}>
             <strong>When I'm not coding, I like to:</strong>
-            <br/>Exercise, discover new Apps, spread positivity
+            <br/>Exercise, discover new Apps, motivate others
           </p>
         </div>
       </div>

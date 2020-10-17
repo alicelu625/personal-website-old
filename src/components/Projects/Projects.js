@@ -23,14 +23,13 @@ const projects = () => (
       <div>
         <p style={{marginTop: 5}}><strong>Description:</strong> This website was built for the purpose of showcasing my web development skills as well as my projects and experiences, which gets regularly updated. For mobile/tablet support, a toggle side navigation was implemented in place of a top navigation. As I learn more about web development, I will also implement new features and designs to improve the user interface and user experience.</p>
         <p><strong>What I used:</strong> React 16, JavaScript (ES6), HTML5, CSS3 w/ Mobile First, Webpack</p>
-        <p style={{marginBottom: 0}}><strong>Future work (Next updates!):</strong></p>
+        <p style={{marginBottom: 0}}><strong>Currently working on (Next updates!):</strong></p>
         <ul style={{marginTop: 0}}>
-          <li>Add routing and implement a nice home page</li>
-          <li>Add collapsible feature and "see more" to lengthy descriptions</li>
+          <li>Implement whole new design with a modern look</li>
+          <li>Learn more about design and improve overall user interface</li>
+          <li>Implement better way to handle lengthy descriptions</li>
           <li>Implement project details page for each project</li>
           <li>Add animation</li>
-          <li>Learn more about design and improve overall user interface</li>
-          <li>Add a feedback form</li>
         </ul>
     </div>
   </div>
@@ -56,11 +55,11 @@ const projects = () => (
     </div>
       <div>
         <p style={{marginTop: 5}}><strong>Description:</strong> A single page web application that allows users to build a burger by adding/removing ingredients. An order summary is displayed upon checkout. For mobile support, a toggle side navigation was implemented in place of a desktop supported toolbar.</p>
-        <p><strong>What I used:</strong> React 16, JavaScript (ES6), HTML5, CSS3 w/ Mobile First, Webpack, Routing, Firebase (HTTP/Ajax)</p>
-        <p style={{marginBottom: 0}}><strong>Future work:</strong></p>
+        <p><strong>What I used:</strong> React 16, Redux, React-Router, React-Thunk, JavaScript (ES6), HTML5, CSS3 w/ Mobile First, Webpack, Routing, Firebase, Axios</p>
+        <p style={{marginBottom: 0}}><strong>Currently working on (Next Updates!):</strong></p>
         <ul style={{marginTop: 0}}>
-          <li>Use Redux</li>
           <li>Add authentification</li>
+          <li>Complete project and test.</li>
         </ul>
       </div>
   </div>
