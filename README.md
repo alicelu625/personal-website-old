@@ -16,6 +16,7 @@ Next updates:
 
 What I used: 
 * React 16
+* JavaScript (ES6)
 * HTML5
 * CSS3 w/ mobile first approach
 * Webpack

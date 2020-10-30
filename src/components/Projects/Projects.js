@@ -55,10 +55,10 @@ const projects = () => (
     </div>
       <div>
         <p style={{marginTop: 5}}><strong>Description:</strong> A single page web application that allows users to build a burger by adding/removing ingredients. An order summary is displayed upon checkout. For mobile support, a toggle side navigation was implemented in place of a desktop supported toolbar.</p>
-        <p><strong>What I used:</strong> React 16, Redux, React-Router, React-Thunk, JavaScript (ES6), HTML5, CSS3 w/ Mobile First, Webpack, Routing, Firebase, Axios</p>
+        <p><strong>What I used:</strong> React 16, Redux, React-Router, React-Thunk, JavaScript (ES6), HTML5, CSS3 w/ Mobile First, Webpack, Backend/Database: Google Firebase, Axios, Firebase Authentication</p>
         <p style={{marginBottom: 0}}><strong>Currently working on (Next Updates!):</strong></p>
         <ul style={{marginTop: 0}}>
-          <li>Add authentification</li>
+          <li>Improve UI</li>
           <li>Complete project and test.</li>
         </ul>
       </div>
