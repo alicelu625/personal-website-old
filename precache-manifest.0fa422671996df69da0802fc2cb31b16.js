@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b5904164f2c0f38312c2a6cb2f02fc75",
+    "revision": "b53948dfc2db2d7e3d81fe64f6c9b4e6",
     "url": "/index.html"
   },
   {
-    "revision": "547d2567212de2a3d52c",
+    "revision": "1cdbe35b24d6b0b8e77e",
     "url": "/static/css/main.d4a8ea10.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.2e56e8d1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "547d2567212de2a3d52c",
-    "url": "/static/js/main.66a24321.chunk.js"
+    "revision": "1cdbe35b24d6b0b8e77e",
+    "url": "/static/js/main.45a31c4f.chunk.js"
   },
   {
     "revision": "f139b624154a37532bb8",
     "url": "/static/js/runtime-main.ce89729d.js"
   },
   {
-    "revision": "492d79ece3d7acd99fb2bda4cd207d17",
-    "url": "/static/media/AliceLuResume.492d79ec.pdf"
+    "revision": "8c8c923f94907f544b86243bf1b1152a",
+    "url": "/static/media/AliceLuResume.8c8c923f.pdf"
   },
   {
     "revision": "c2b45ce82fb9c39e5ed6b805dfd38560",
