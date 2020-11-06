@@ -50,16 +50,12 @@ const projects = () => (
             <button className={classes.ViewButton}>View Project</button>
           </a>
         </p>
-        <p style={{marginBottom: 0, marginTop: 0}}>September 2020 - Present</p>
+        <p style={{marginBottom: 0, marginTop: 0}}>September 2020 - November 2020</p>
       </div>  
     </div>
       <div>
-        <p style={{marginTop: 5}}><strong>Description:</strong> A web application that allows users to build a burger by adding/removing ingredients and place an order if authenticated. An order summary is displayed upon checkout and the user can proceed to enter contact information. For mobile support, a toggle side navigation was implemented in place of a desktop supported toolbar.</p>
+        <p style={{marginTop: 5}}><strong>Description:</strong> A web application that allows a user to build a burger by adding/removing ingredients and place the order if authenticated. An order summary is displayed upon checkout & user can proceed to checkout by filling out contact data. For mobile support (smaller screens), a toggle menu is implemented in place of the toolbar on the top.</p>
         <p><strong>What I used:</strong> React 16, Redux, React-Router, React-Thunk, JavaScript (ES6), HTML5, CSS3 w/ Mobile First, Webpack, Backend/Database: Google Firebase, Axios, Firebase Authentication, Unit Tests (Jest, Enzyme)</p>
-        <p style={{marginBottom: 0}}><strong>Currently working on (Next Updates!):</strong></p>
-        <ul style={{marginTop: 0}}>
-          <li>Improve UI</li>
-        </ul>
       </div>
   </div>
   <div className={classes.Project}>
