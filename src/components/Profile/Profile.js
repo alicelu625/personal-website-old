@@ -29,7 +29,7 @@ const profile = () => {
           </p>
           <p>
             <strong>About me:</strong>
-            <br/>I'm a recent graduate at the University of California: Santa Cruz, where I discovered my passion for web development. I enjoy learning new tools and concepts to improve user experience and performance. It is one of my goals to build products that will help simplify ways for people to complete tasks, communicate with each other, access information, etc.
+            <br/>I'm a recent graduate at the University of California: Santa Cruz, where I discovered my passion for software/web development. I enjoy learning new tools and concepts to improve user experience. It is one of my goals to build products that will help simplify ways for people to complete tasks, communicate with each other, access information, etc.
           </p>
           <p style={{marginBottom: 0}}>
             <strong>When I'm not coding, I like to:</strong>
