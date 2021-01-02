@@ -7,10 +7,10 @@ const skills = () => (
       <br/>Python, JavaScript, CSS, HTML, SQL, Java
     </p>
     <p><strong>Frameworks/Technologies:</strong>
-      <br/>React.js (w/ Redux), Vue.js, Webpack, Axios, Py4Web, Database Systems (PostgreSQL, Firebase), Firebase Authentication, Unit Testing (Jest, Enzyme), Content Management Systems (CMS), Android Studios, Unix, Git, REST APIs, LaTeX, Slack, RapidMiner, Tableau
+      <br/>React.js, Redux, Node.js, Express.js, Vue.js, RESTful APIs, PostgreSQL, Firebase (database & authentication), Jest/Enzyme (unit testing), Chrome Dev Tools/Redux Dev Tools (debugging), Git, Figma, Postman, Content Management Systems (CMS), Android Studios
     </p>
     <p><strong>Technical Skills:</strong>
-      <br/>Data Structures, Algorithms, Abstract Data Types, Responsive Web Development, Mobile Application Development, Database Systems, Computer Systems Design, Data Mining, Project Management
+      <br/>Responsive Web Development, UX Design, Web Accessibility, Database Systems, Data Structures, Algorithms, Mobile Application Development, Computer Systems Design, Data Mining, Project Management
     </p>
     <p><strong>Other skills:</strong>
       <br/>Problem Solving, Adaptability, Teamwork, Leadership, Passionate, Communication, Priority Management, Creativity, Flexibility, Organization

@@ -56,7 +56,7 @@ const education = () => (
         </a>
         <div className={classes.Info}>
           <a className={classes.School} href="https://www.udemy.com/"><strong>Udemy</strong></a>
-          <p className={classes.OtherInfo} style = {{marginBottom: 0 }}>September 2020 - Present</p>
+          <p className={classes.OtherInfo} style = {{marginBottom: 0 }}>September 2020 - November 2020</p>
           <p className={classes.otherInfo} style={{marginBottom: 0, marginTop: 0}}>Course: React - The Complete Guide (incl Hooks, React Router, Redux)</p>
         </div>
       </div>
