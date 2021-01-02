@@ -8,7 +8,7 @@ const projects = () => (
   <div className={classes.Projects}>
     <div className={classes.Project}>
       <div className={classes.Top}>
-          <a href="https://alicezlu.com/">
+          <a href="https://alicezlu.com/personal-website-old">
             <img 
               className={classes.Logo}
               src={WebsiteLogo}
@@ -16,7 +16,7 @@ const projects = () => (
             />
           </a>
           <div>
-            <a className={classes.Title} href="https://alicezlu.com/">My Personal Website (This site!)</a>
+            <a className={classes.Title} href="https://alicezlu.com/personal-website-old">My Personal Website (This site!)</a>
             <p style={{marginBottom: 0}}>September 2020 - Present</p>
           </div>
       </div>

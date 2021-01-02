@@ -1,9 +1,10 @@
 
 ## Alice's Personal Website (Old)
 
-This website was built for the purpose of showcasing my initial web development skills as well as my projects and experiences. As I learned more about web development and user experience, a new website was developed to improve user interface and user experience.
+This website was built for the purpose of showcasing my initial web development skills as well as my projects and experiences. As I learned more about web development and user experience, a [new website](https://alicezlu.com/) was developed to improve user interface and user experience.
 
 View Project: https://alicezlu.com/personal-website-old/
+
 View Updated Website: https://alicezlu.com/
 
 What I used: 

@@ -4,11 +4,14 @@ import Intro from '../../components/Intro/Intro';
 import NavigationTabs from '../../components/Navigation/NavigationTabs/NavigationTabs';
 import Details from '../../container/Details/Details';
 import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
+import Message from '../../components/Message/Message';
+import Backdrop from '../../components/Backdrop/Backdrop';
 
 class Layout extends Component {
   state = {
     selected: 'about me',
-    showSideDrawer: false
+    showSideDrawer: false,
+    showMessage: true
   }
 
   selectTabHandler = (tab) => {
@@ -24,6 +27,10 @@ class Layout extends Component {
   
   closeSideDrawerHandler = () => {
     this.setState({showSideDrawer: false});
+  }
+
+  closeMessageHandler = () => {
+    this.setState({showMessage: false});
   }
 
   render() {
@@ -45,8 +52,17 @@ class Layout extends Component {
       }
     }
 
+    let message = <div style={{display: 'flex', justifyContent: 'center'}}>
+      <Message show={this.state.showMessage} closeMessage={this.closeMessageHandler}/>
+    </div>;
+    if (this.state.showMessage === false) {
+      message = null;
+    }
+
     return (
       <Aux>
+        <Backdrop show={this.state.showMessage} backdropClicked={this.closeMessageHandler}/>
+        {message}
         <Intro/>
         <NavigationTabs
           drawerToggleClicked={this.openSideDrawerHandler}
